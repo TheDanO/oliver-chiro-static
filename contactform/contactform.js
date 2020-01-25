@@ -107,7 +107,6 @@ jQuery(document).ready(function($) {
       }
     });
     if (ferror) return false;
-    else var str = $(this).serialize();
-    return false;
+    return true;
   });
 });
